@@ -1,3 +1,5 @@
+
+LEER COMO CODIGO PARA QUE SE MAS ENTENDIBLE
 CLASE 1
 EJERCICIOS DE DESCOMPOSICION 
 PROBLEMA:hacer una hamburgesa 
@@ -109,16 +111,21 @@ El AND conprueba que si ambas condiciones se cumplen la expresion es verdadera
 
 
 EJERCICIO 5
+
 ENTRADA
 par
 impar 
+
 PROCESO
-Si sacamos el residuo de una division de un numero y este es cero es par 
+si dividimos un numero entre dos y su residuo es cero entonces en numero es par de lo contrario este es impar 
+13/2<- 1 
+13<-impar 
+6/2<-0
+par
+SALIDA
+mostrar los numeros impares y pares 
 
-
-
-
-CLASE 5 
+CLASE 4
 
 EJECICIO 1
 ALGORITMO 
