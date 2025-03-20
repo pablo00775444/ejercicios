@@ -1,4 +1,5 @@
-EJERCICIOS CLASE 1
+CLASE 1
+EJERCICIOS DE DESCOMPOSICION 1
 PROBLEMA:hacer una hamburgesa 
 1.alistar los ingredientes que ban a ser,tomates,cebollas,carne y pan 
 2.lavar los tomates y cebollas 
@@ -16,3 +17,9 @@ PROBLEMA:hacer una hamburgesa
 13.colocar la carne 
 14.colocar la cebolla 
 15.por ultimo colocar el pan de arriba y cerrar la hamburguesa
+
+EJERCICIOS DE ABSTRACCION 2
+El funcionamientop de un semaforo sin mencionar detalles internos del circuito electrónico
+1.el semaforo cambia su color a rojo en este estado los peatones no pueden pasar 
+2.el semaforo cambia su color a amarillo en este estado falta poco para para que los peatones puedan pasar
+3.el semafore cambia su color a verde en este estado los peatones pueden pasar 
