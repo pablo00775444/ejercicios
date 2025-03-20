@@ -67,6 +67,36 @@ FIN PARA
 ESCRIBIR"el factorial de",numero,"es:",factorial 
 FIN 
 
+CLASE 3
+EJECICIO 1
+INICIO
+DECLARAR edad COMO ENTERO
+edad=37
+
+EJERCICIO 2 
+INICIO
+(4+3*2)>(3+3)
+(10>6) verdadero o true
+
+EJERCICO 3
+
+
+
+
+EJERCICIO 4
+10 Y 20
+SI numero >=10  numero<=20 
+numero=15 esta entre 10 y 20 
+
+EJERCICIO 5
+ENTRADA
+par
+impar 
+PROCESO
+Si sacamos el residuo de una division de un numero y este es cero es par 
+
+
+
 
 
 
