@@ -29,7 +29,9 @@ EJERCICIO DE MODELADO
 ![WhatsApp Image 2025-03-19 at 10 11 30 PM (1)](https://github.com/user-attachments/assets/dce59f84-770e-45d8-8653-23abefaafaab)
 
 EJERCICIO DE PATRONES
-
+3, 5, 4, 6, 5, 7, 6, 8,_
+del 3 al 5 se suman dos, luego del 5 al 4 se resta 1 y haci consecutivamente
+RTA: 7
 
 
 
@@ -38,10 +40,10 @@ CLASE 2
 EJECICIO 1:pseudocodigo determinar par y impar 
 INICIO
 DECLARAR numero COMO ENTERO
-numero =0
+numero  <- 0
 ESCRIBIR "ingrese un numero"
 LEER numero
-SI numero MOD 2 =0 ENTONCES 
+SI numero MOD 2  <- 0 ENTONCES 
 ESCRIBIR "el numero es par"
 SINO
 ESCRIBIR"el numero es impar"
@@ -51,7 +53,14 @@ FIN
 EJERCICIO 2:Inscripcion en una plataforma en linea
 ![WhatsApp Image 2025-03-19 at 10 53 03 PM](https://github.com/user-attachments/assets/6337cbcb-0a9a-4c67-941e-e2dc4c412833)
 
+
 EJERCICIO 3
+1.ANANLISIS:
+si se tiene que revisar cada dato de la lista esto podria requerir de demasiado tiempo, por esta razon es fundamental que el tiempo se proporcinal a la lista por eso la notacion big O que se nesesita es:O(n) en este caso el nivel de eficiencia es alto por que cumple con los factores clave 
+
+2.ANALISIS:
+En este 
+3.ANALISIS:
 
 
 
@@ -62,16 +71,19 @@ DECLARAR factorial,numero COMO ENTERO
 ESCRIBIR "ingrese un numero"
 LEER numero 
 PARA i DESDE 1 HASTA numero HACER 
-factorial=factorial + i
+factorial <- factorial * i
 FIN PARA 
 ESCRIBIR"el factorial de",numero,"es:",factorial 
 FIN 
+
+
+
 
 CLASE 3
 EJECICIO 1
 INICIO
 DECLARAR edad COMO ENTERO
-edad=37
+edad <- 37
 
 EJERCICIO 2 
 INICIO
@@ -79,14 +91,22 @@ INICIO
 (10>6) verdadero o true
 
 EJERCICO 3
+Para convertir 13 a numero binario tenemos que dividirlo entre 2 y tenemos que guardar el resultado del residuo y cociente, luego dividimos el cociente por 2 nuevamente y seguimos dividiendo hasta que el cociente sea cero.Por ultimo ubicamos los resultados de abajo hacia arriba 
 
-
-
+CONVERSION: 
+(13/2 <- 6)residuo (1)
+(6/2 <- 3)residuo (0)
+(3/2 <- 1)residuo (1)
+(1/2 <- 0)residuo (1)
+RESULTADO:1101
 
 EJERCICIO 4
 10 Y 20
-SI numero >=10  numero<=20 
-numero=15 esta entre 10 y 20 
+SI numero >=10 && numero<=20 ENTONCES esta entre 10 y 20 
+numero <- "15" esta entre 10 y 20 
+numero:verdadero 
+El AND conprueba que si ambas condiciones se cumplen la expresion es verdadera  
+
 
 EJERCICIO 5
 ENTRADA
@@ -98,8 +118,94 @@ Si sacamos el residuo de una division de un numero y este es cero es par
 
 
 
+CLASE 5 
+
+EJECICIO 1
+ALGORITMO 
+
+ENTRADA
+escribir
+leer 
+nombre
+mensaje 
+
+PROCESO
+ESCRIBIR"por favor, escriba su nombre:"
+LEER nombre 
+ESCRIBIR"hola, ",nombre
+
+SALIDA 
+mostrar el mesaje al usuario
+
+EJERCICIO 2
+PROGRAMA
+INICIO
+DECLARAR numero,positivo COMO ENTERO
+REPETIR
+ESCRIBIR"ingrese un numero positivo(> 0):"
+LEER numero 
+HASTA QUE numero sea > 0
+FIN
+EJERCICIO 3
+
+ENTRADA
+escribir 
+leer
+suma
+num1, num2, num3, 
+
+PROCESO 
+escribir "ingrese tres numeros2
+leer num1, num2, num3
+suma<- num1+num2+num3
+
+SALIDA
+mostrar el resultado de la suma 
+
+EJERCICIO 4
+
+DECLARAR edad COMO ENTERO 
+REPETIR 
+ESCRIBIR"ingrese su edad:"
+LEER edad
+SI edad es <= 0 entoces 
+ESCRIBIR"edad debe ser mayor a 0"
+FIN SI 
+HASTA QUE edad sea > 0
+ESCRIBIR"la edad fue registrada satisfactoriamente:",edad
+FIN
+
+EJERCICIO 5
+DECLARAR a, b producto COMO ENTEROS
+ESCRIBIR"ingrese dos numeros
+LEER a, b
+producto <- a * b
+ESCRIBIR"el producto de la multiplicacion es:",producto
+FIN
+PASO        INCOGNITA      Y       RESULTADO      SALIDA EN PANTALLA
+1                                                "ingrese dos numeros" 
+2                5         5
+3                5         5           8 
+4                                                   "el producto es:"
 
 
 
+EJERCICIO 6
 
+INICIO
+DECLARAR par,impar,numero COMO ENTERO
+numero <- 0
+REPETIR 
+ESCRIBIR"ingrese un numero (no pueden ser carateres especiales o cualquier otro simbolo)"
+LEER numero 
+HASTA QUE el usuario ingrese solo numeros 
+ESCRIBIR"el numero ingresado es:",numero 
+SI numero MOD 2 <- 0 ENTOCES HACER
+par <- par + 1
+SINO
+impar <- impar + 1
+FIN SI 
+ESCRIBIR"el numero par es:",par,"el numero impar es:",impar 
+
+FIN 
 
