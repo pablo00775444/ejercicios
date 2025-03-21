@@ -45,7 +45,7 @@ DECLARAR numero COMO ENTERO
 numero  <- 0
 ESCRIBIR "ingrese un numero"
 LEER numero
-SI numero MOD 2  <- 0 ENTONCES 
+SI numero % 2  <- 0 ENTONCES 
 ESCRIBIR "el numero es par"
 SINO
 ESCRIBIR"el numero es impar"
